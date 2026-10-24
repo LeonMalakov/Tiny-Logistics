@@ -1,0 +1,7 @@
+.exports/
+.patches/
+visual_sources/
+
+# macOS filesystem metadata
+.DS_Store
+.DS_Store.meta

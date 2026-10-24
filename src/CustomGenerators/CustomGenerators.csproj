@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        
+        <!-- Запретить автоматическую генерацию атрибутов сборки -->
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+        <!-- Указание папки вывода -->
+        <OutputPath>bin\</OutputPath>
+        <!-- Отключение стандартных шаблонов пути, таких как net6.0 -->
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <!-- Задание имени выходного файла -->
+        <AssemblyName>WAL.CustomGenerators.Plugins</AssemblyName>
+
+        <!-- Отключение генерации .pdb и .deps.json -->
+        <DebugType>none</DebugType>
+        <GenerateDependencyFile>false</GenerateDependencyFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="CustomGenerators\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Entitas.CodeGeneration.Plugins" Version="1.14.2" />
+    </ItemGroup>
+
+</Project>

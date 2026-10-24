@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1a9d58d151fddf49a228f693161d48f, type: 3}
+  m_Name: ViewConfig
+  m_EditorClassIdentifier: Assembly-CSharp::Code.Infrastructure.Configs.Model.ViewConfig
+  FactoryPrefab: {fileID: 4708691186755300950, guid: 65bd495431390704b8c7b9143257ec55, type: 3}
+  TruckPrefab: {fileID: 1547819732267937008, guid: efc909af295689649831a30ddaf103af, type: 3}
+  EnemyPrefab: {fileID: 5599858157071307782, guid: a43104ad820d1d94a94634f613f8918f, type: 3}
+  WorldPrefab: {fileID: 3247064259603021769, guid: ca5165f04e4444e44bcac14ef1ce6375, type: 3}
+  ExplosionPrefab: {fileID: 456313189194313669, guid: c10779d2508b1024ea9c33d070e47f65, type: 3}
+  BurningColor: {r: 1, g: 0.35, b: 0.05, a: 1}
+  DeadColor: {r: 0.3, g: 0.32, b: 0.35, a: 1}
+  BurningPulseSpeed: 4
+  ExplosionDuration: 0.4
